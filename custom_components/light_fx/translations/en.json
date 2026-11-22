@@ -1,0 +1,21 @@
+{
+  "services": {
+    "start": {
+      "name": "Start effect",
+      "description": "Run a light effect on the targeted lights. Any other command to a light stops its effect.",
+      "fields": {
+        "effect": { "name": "Effect", "description": "Which effect to run." },
+        "speed": { "name": "Speed", "description": "1 is normal, 2 is twice as fast, 0.5 half speed." },
+        "brightness": { "name": "Brightness", "description": "Maximum brightness the effect uses." },
+        "color": { "name": "Colour", "description": "Base colour for single-colour effects (breathe, pulse, colorloop saturation)." }
+      }
+    },
+    "stop": {
+      "name": "Stop effect",
+      "description": "Stop effects on the targeted lights, or on all lights if none are targeted.",
+      "fields": {
+        "restore": { "name": "Restore", "description": "Put the lights back how they were before the effect started." }
+      }
+    }
+  }
+}
