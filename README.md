@@ -4,6 +4,8 @@ Software light effects for Home Assistant: colour loops, candlelight, sunrise an
 
 Many lights (Matter, HomeKit, Zigbee bulbs without firmware effects) offer no effects of their own in Home Assistant. Light FX runs the effect inside Home Assistant and sends ordinary `light.turn_on` commands, so it works with them all the same. Nanoleaf panel devices can optionally be driven panel by panel.
 
+![The Start effect action in Home Assistant's Actions tool, with the list of effects open](docs/images/start-action.webp)
+
 ## What it adds
 
 Two actions and nothing else: no entities, no devices.
